@@ -1,16 +1,251 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/cssfamily?=Muli');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Muli', sans-serif;
+    display: grid;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0;
+    background: linear-gradient(180deg, rgba(73,110,76,1) 23%, rgba(63,121,72,1) 50%, rgba(31,117,66,1) 100%);
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 10vh 45vh 40vh;
+    color: #fff;
+    font-weight: bold;
+    width: 98vw;
+    height: 98vh;
+    padding: 20px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgba(32,59,44,1) 0%, rgba(32,59,44,1) 35%, rgba(40,78,70,1) 100%);
+}
+
+.row1, .row2, .row3 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.jlava {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+span.ski {
+    color: cornflowerblue;
+}
+
+.search {    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 18px;
+}
+
+.searchBar {
+    width: 50vw;
+    font-size: 22px;
+    background: rgba(32,59,44,1);
+    border: none;
+    color: #fff;
+    margin-left: 12px;
+    padding: 8px;
+}
+
+.upperRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languageSelect {
+    background: #fff;
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator {
+    height: 25px;
+    width: 30px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nav ul {
+    cursor: pointer;
+}
+
+.projectsContainer .projects, 
+.statsImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projectsContainer h2,
+.stats h2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects div img,
+.stats div img {
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectNames {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.projectNames div {
+    width: 150px;
+}
+
+.projectNames h5,
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statsData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statsData h5 {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.randomInteger {
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+.icons i {
+    margin-left: 5px
+}
+
+.stats div h5 i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pastEventsContainer, .rewardsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rewards, .pastEvents {
+    height: 100px;
+    width: 200px;
+    background-color: teal;
+    border-radius: 25px;
+    display: flex;
+}
+
+.fa-cake-candles, .fa-medal {
+    align-self: center;
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+.pastEventsInnerText, .rewardsInnerText {
+    align-self: center;
+}
+
+.innerTextTop {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+
+.innerTextBottom {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.calendar {
+    font-family: 'Muli', sans-serif;
+}
+
+.calendarGrid {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day, .day-red, .dayDifferentMonth {
+    width: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.calendarGrid p {
+    font-size: 14px;
+    align-content: center;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.calendarGrid .dayDifferentMonth {
+    color: slategray;
+}
+
+.day-red {
+    background: lightcoral;
+    border-radius: 10px;
+}
+
+.calendar h2 {
+    display: flex;
+    justify-content: space-around;
 }
