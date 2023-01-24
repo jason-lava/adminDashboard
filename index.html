@@ -4,14 +4,211 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Project</title>
+    <title>Admin Dashboard</title>
 </head>
 <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+        <div class="row1">
+            <div class="jlava"><a href="https://github.com/jlavandowski">jlavandow<span class="ski">ski</span></a></div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="searchBar" placeholder="Search..."></input>
+            </div>
+            <div class="upperRight">
+                <div class="languageSelect">EN</div>
+                <div class="separator">
+                    <i class="fa-solid fa-circle-dot"></i>
+                </div>
+                <div class="profile">
+                    <a href="https://github.com/jlavandowski">
+                        <img url="https://github.com/jlavandowski" src="/images/mango.png" alt="github">
+                    </a>
 
-
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="nav">
+                <ul>
+                    <i class="fa-sharp fa-solid fa-house"></i>
+                    Home
+                </ul>
+                <ul>
+                    <a href="https://github.com/jlavandowski"><i class="fa-sharp fa-solid fa-user"></i>
+                    Profile
+                    </a>
+                </ul>
+                <ul>
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                    Message
+                </ul>                
+                <ul>
+                    <i class="fa-sharp fa-solid fa-list"></i>
+                    Tasks
+                </ul>
+                <ul>
+                    <i class="fa-sharp fa-solid fa-arrow-up-from-bracket"></i>
+                    Upload
+                </ul>
+                <ul>
+                    <i class="fa-sharp fa-solid fa-gear"></i>
+                    Settings
+                </ul>
+                <ul>
+                    <i class="fa-sharp fa-solid fa-bookmark"></i>
+                    Bookmark
+                </ul>
+            </div>
+            <div class="projectsContainer">
+                <h2>Projects</h2>
+                <div class="projects">
+                    <div class="calculator">
+                        <a href="https://github.com/jlavandowski/calculator">
+                            <img src="/images/calculator.png">
+                        </a>
+                    </div>
+                    <div class="etchASketch">
+                        <a href="https://github.com/jlavandowski/etch-a-sketch">
+                            <img src="/images/etchasketch.png">
+                        </a>
+                    </div>
+                    <div class="rockPaperScissors">
+                        <a href="https://github.com/jlavandowski/rock-paper-scissors">
+                            <img src="/images/rockPaperScissors.jpeg">
+                        </a>
+                    </div>
+                    <div class="ongoingProjects">
+                        <a href="https://github.com/jlavandowski/50-projects">
+                            <img src="/images/ongoingProjects.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="projectNames">
+                    <div class="calculatorName">
+                        <h5>Calculator</h5>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i>|</i>
+                            <i class="fa-regular fa-comments"></i>
+                            <i>|</i>
+                            <i class="fa-solid fa-circle-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="etchASketchName">
+                        <h5>Etch-a-Sketch</h3>
+                            <div class="icons">
+                                <i class="fa-regular fa-star"></i>
+                                <i>|</i>
+                                <i class="fa-regular fa-comments"></i>
+                                <i>|</i>
+                                <i class="fa-solid fa-circle-nodes"></i>
+                            </div>
+                    </div>
+                    <div class="rockPaperScissorsName">
+                        <h5>Rock-Paper-Scissors</h3>
+                            <div class="icons">
+                                <i class="fa-regular fa-star"></i>
+                                <i>|</i>
+                                <i class="fa-regular fa-comments"></i>
+                                <i>|</i>
+                                <i class="fa-solid fa-circle-nodes"></i>
+                            </div>
+                    </div>
+                    <div class="ongoingProjectsName">
+                        <h5>Ongoing Projects</h5>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i>|</i>
+                            <i class="fa-regular fa-comments"></i>
+                            <i>|</i>
+                            <i class="fa-solid fa-circle-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stats">
+                <h2>Statistics</h2>
+                <div class="statsImg">
+                    <img src="/images/stats.jpeg">
+                </div>
+                <div class="statsData">
+                    <h5>Weekly Updates:</h5>
+                    <span class="randomInteger">42</span>
+                    <h5>features implemented</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="pastEventsContainer">
+                <div class="pastEvents">
+                    <i class="fa-solid fa-cake-candles"></i>
+                    <div class="pastEventsInnerText">
+                        <p class="innerTextTop">Past Events</p>
+                        <p class="innerTextBottom">Check out details of past events</p>       
+                    </div>         
+                </div>
+            </div>
+            <div class="calendar">
+               <h2>Event Calendar - February 2023</h2>
+               <div class="calendarGrid">
+                    <p class="day1">Sun</p>
+                    <p class="day2">Mon</p>
+                    <p class="day3">Tue</p>
+                    <p class="day4">Wed</p>
+                    <p class="day5">Thu</p>
+                    <p class="day6">Fri</p>
+                    <p class="day7">Sat</p>
+                    <p class="dayDifferentMonth">29</p>
+                    <p class="dayDifferentMonth">30</p>
+                    <p class="dayDifferentMonth">31</p>
+                    <p class="day">01</p>
+                    <p class="day-red">02</p>
+                    <p class="day">03</p>
+                    <p class="day">04</p>
+                    <p class="day">05</p>
+                    <p class="day-red">06</p>
+                    <p class="day">07</p>
+                    <p class="day">08</p>
+                    <p class="day">09</p>
+                    <p class="day-red">10</p>
+                    <p class="day">11</p>
+                    <p class="day">12</p>
+                    <p class="day">13</p>
+                    <p class="day">14</p>
+                    <p class="day-red">15</p>
+                    <p class="day">16</p>
+                    <p class="day">17</p>
+                    <p class="day-red">18</p>
+                    <p class="day">19</p>
+                    <p class="day">20</p>
+                    <p class="day">21</p>
+                    <p class="day">22</p>
+                    <p class="day-red">23</p>
+                    <p class="day">24</p>
+                    <p class="day">25</p>
+                    <p class="day">26</p>
+                    <p class="day-red">27</p>
+                    <p class="day">28</p>
+                    <p class="dayDifferentMonth">01</p>
+                    <p class="dayDifferentMonth">02</p>
+                    <p class="dayDifferentMonth">03</p>
+                    <p class="dayDifferentMonth">04</p>
+                </div>
+               </div>
+            </div>
+            <div class="rewardsContainer">
+                <div class="rewards">
+                    <i class="fa-solid fa-medal"></i>
+                    <div class="rewardsInnerText">
+                        <p class="innerTextTop">Rewards</p>
+                        <p class="innerTextBottom">Rewards and bonus events</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
