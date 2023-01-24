@@ -4,7 +4,6 @@
 
 https://jlavandowski.github.io/adminDashboard
 
-~/repos/images/adminDashboard.png
 
 # How It's Made
 
