@@ -118,13 +118,13 @@ span.ski {
 }
 
 .projectsContainer h2,
-.stats h2 {
+.statsContainer h2 {
     display: flex;
     justify-content: space-around;
 }
 
 .projects div img,
-.stats div img {
+.statsContainer div img {
     height: 200px;
     width: 150px;
     border-radius: 10px;
@@ -172,7 +172,7 @@ span.ski {
     margin-left: 5px
 }
 
-.stats div h5 i {
+.statsContainer div h5 i {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,6 +217,11 @@ span.ski {
     font-family: 'Muli', sans-serif;
 }
 
+.calendar h2 {
+    display: flex;
+    justify-content: space-around;
+}
+
 .calendarGrid {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
@@ -229,8 +234,13 @@ span.ski {
     justify-content: center;
 }
 
+.weekday {
+    width: 30px;
+    font-weight: bold;
+}
+
 .calendarGrid p {
-    font-size: 14px;
+    font-size: 16px;
     align-content: center;
     margin: 10px;
     margin-left: 40px;
@@ -243,9 +253,4 @@ span.ski {
 .day-red {
     background: lightcoral;
     border-radius: 10px;
-}
-
-.calendar h2 {
-    display: flex;
-    justify-content: space-around;
 }
