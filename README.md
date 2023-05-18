@@ -2,7 +2,7 @@
 
 # Live Demo
 
-https://jlavandowski.github.io/adminDashboard
+https://jason-lava.github.io/adminDashboard
 
 
 # How It's Made
