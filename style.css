@@ -45,9 +45,14 @@ a {
     color: #fff;
 }
 
-span.ski {
+span.jason {
     color: cornflowerblue;
 }
+
+span.lava {
+    color: orangered;
+}
+
 
 .search {    
     display: flex;
